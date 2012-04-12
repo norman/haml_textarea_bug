@@ -1,0 +1,2 @@
+= form_for Person.new.tap {|x| x.name = "Joe"} do |f|
+  = f.text_area :name
